@@ -133,6 +133,12 @@ img {
 .hero-container {
    text-align: center;
 }
+.hero-fullscrin {
+   max-width: 1600px;
+   height: 100%;
+   margin: 0 auto;
+   background-image: url(../images/people-office.jpg);
+}
 .hero-title {
    max-width: 492px;
    margin: 0 auto;
