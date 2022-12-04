@@ -289,10 +289,9 @@ img {
 }
 /*=========================== CUSTOMERS ============================*/
 .customers-section {
+   padding-bottom: 120px;
 }
 .customers-container {
-}
-.container {
 }
 .customers-title {
    margin-bottom: 72px;
