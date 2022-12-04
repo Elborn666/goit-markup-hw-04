@@ -178,12 +178,17 @@ img {
    margin-right: 24px;
    flex-basis: calc((100%-72)/4);
 }
-.icons {
+.list-icons {
+   margin-bottom: 8px;
    width: 264px;
    height: 112px;
-   border: 3px solid black;
    border-radius: 4px;
    background-color: var(--light-color);
+   text-align: center;
+}
+.list-icon {
+   width: 60px;
+   height: 64px;
 }
 .list-item:last-child {
    margin-right: 0px;
@@ -267,6 +272,42 @@ img {
 }
 .team-position {
    margin-bottom: 32px;
+}
+.team-icons {
+   display: block;
+   padding: 12px 16px 36px 16px;
+}
+.team-icon {
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background-color: #4D5AE5;
+   margin-right: 24px;
+}
+.team-icon:last-child {
+   margin-right: 0px;
+}
+/*=========================== CUSTOMERS ============================*/
+.customers-section {
+}
+.customers-container {
+}
+.container {
+}
+.customers-title {
+   margin-bottom: 72px;
+
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-align: center;
+   text-transform: capitalize;
+   color: var(--title-color);
+}
+.customaers-icons {
+}
+.customers-icon {
 }
 /*=========================== PORTFOLIO ============================*/
 .portfolio-section {
