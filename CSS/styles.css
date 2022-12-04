@@ -270,22 +270,20 @@ img {
    letter-spacing: 0.02em;
    color: var(--title-color);
 }
-.team-position {
-   margin-bottom: 32px;
+.team-social {
+   display: flex;
+   padding: 12px 16px 36px 16px;
+   justify-content: space-between;
 }
 .team-icons {
-   display: block;
-   padding: 12px 16px 36px 16px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #4D5AE5;
 }
 .team-icon {
    width: 16px;
    height: 16px;
-   border-radius: 50%;
-   background-color: #4D5AE5;
-   margin-right: 24px;
-}
-.team-icon:last-child {
-   margin-right: 0px;
 }
 /*=========================== CUSTOMERS ============================*/
 .customers-section {
@@ -305,6 +303,7 @@ img {
    color: var(--title-color);
 }
 .customaers-icons {
+   background-color: #4D5AE5;
 }
 .customers-icon {
 }
@@ -378,6 +377,12 @@ img {
    padding: 100px 0px;
    background-color: #2E2F42;
 }
+.footer-container {
+   display: flex;
+}
+.footer-recommendation {
+   margin-right: 120px;
+}
 .footer-logo{
    font-family: 'Raleway', sans-serif;
    font-size: 18px;
@@ -391,4 +396,23 @@ img {
 
    line-height: 1.5;
    color: #ffffff;
+}
+.footer-title {
+   margin-bottom: 16px;
+   font-weight: 700;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #ffffff;
+}
+.footer-social {
+}
+.footer-icons {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #4D5AE5;
+}
+.footer-icon {
+   width: 24px;
+   height: 24px;
 }
