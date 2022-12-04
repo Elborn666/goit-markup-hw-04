@@ -280,6 +280,10 @@ img {
    height: 40px;
    border-radius: 50%;
    background-color: #4D5AE5;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .team-icon {
    width: 16px;
