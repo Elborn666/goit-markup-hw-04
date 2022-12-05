@@ -134,6 +134,8 @@ img {
 }
 .hero-fullscrin {
    margin: 0 auto;
+   background-color: var(--title-color);
+   opacity: 0.4;
    background-image: url(../images/people-office.jpg);
    max-width: 1600px;
    height: 600px;
@@ -147,7 +149,7 @@ img {
 .hero-content {
    position: absolute;
    z-index: 5;
-   top: 25%;
+   top: 28%;
    left: 35%;
 }
 .hero-title {
