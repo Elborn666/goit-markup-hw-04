@@ -128,7 +128,6 @@ img {
 
 .hero-section {
    background-color: #2E2F42;
-   /* padding: 192px 0px; */
 }
 .hero-container {
    text-align: center;
@@ -160,9 +159,6 @@ img {
    font-weight: 700;
    line-height: 1.07;
    color: #ffffff;
-}
-.hero-form {
-   /* padding-bottom: 192px; */
 }
 .hero-button {
    padding: 16px 32px;
