@@ -342,7 +342,7 @@ img {
    margin-right: 0px;
 }
 .customers-icon {
-   height: 56px;
+   height: 88px;
    width: 104px;
    fill: var(--subtle-color);
 }
@@ -467,7 +467,8 @@ img {
    align-items: center;
    justify-content: center;
 }
-.footer-icons:hover {
+.footer-icons:hover,
+.footer-icons:focus {
    background-color: var(--sucsses-color);
 }
 .footer-icon {
