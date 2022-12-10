@@ -133,6 +133,8 @@ img {
    text-align: center;
 }
 .hero-fullscrin {
+   position: relative;
+
    margin: 0 auto;
    background-color: var(--title-color);
    opacity: 0.4;
@@ -143,8 +145,6 @@ img {
    left: 0;
    background-size: cover;
    background-position: center;
-
-   position: relative;
 }
 .hero-content {
    position: absolute;
