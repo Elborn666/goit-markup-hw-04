@@ -346,8 +346,8 @@ img {
    width: 104px;
    fill: var(--subtle-color);
 }
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-icons:hover .customers-icon,
+.customers-icons:focus .customers-icon {
    fill: var(--primery-band);
 }
 /*=========================== PORTFOLIO ============================*/
